@@ -28,7 +28,7 @@ userId.addEventListener("change",function(){
         submitBth.disabled = false;
     }
     else{
-         userError.textContent = "Must be of length 5-12."
+         userError.textContent = "ID không hợp lệ"
          userError.style.color = "red"
         submitBth.disabled = true;
     }
@@ -47,7 +47,7 @@ password.addEventListener("change",function(){
         submitBth.disabled = false;
     }
     else{
-        passwordError.textContent = "Must be of length 7-12."
+        passwordError.textContent = "Không hợp lệ"
         passwordError.style.color = "red"
         submitBth.disabled = true;
     }
@@ -65,7 +65,7 @@ Name.addEventListener("change",function(){
         submitBth.disabled = false;
     }
     else{
-        nameError.textContent = "alphabates only."
+        nameError.textContent = "Không hợp lệ"
         nameError.style.color = "red"
         submitBth.disabled = true;
     }
@@ -84,7 +84,7 @@ zipCode.addEventListener("change",function(){
         submitBth.disabled = false;
     }
     else{
-        zipCodeError.textContent = "Must be numeric only."
+        zipCodeError.textContent = "Không hợp lệ"
         zipCodeError.style.color = "red"
         submitBth.disabled = true;
     }
@@ -103,7 +103,7 @@ Email.addEventListener("change",function(){
         submitBth.disabled = false;
     }
     else{
-        emailError.textContent = "Must be a valid email."
+        emailError.textContent = "Email không hợp lệ"
         emailError.style.color = "red"
         submitBth.disabled = true;
     }
