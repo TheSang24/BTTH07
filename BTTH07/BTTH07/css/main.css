@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    margin-top: 90px;
+}
+#content{
+    width: 490px;
+    height:550px;
+    box-shadow: 2px 2px 2px 2px ; 
+}
+#content h1{
+    margin: 0 0 20px 10px;
+}
+.Row{
+    width: 450px;
+    display: flex;
+    margin: 0 0 10px 15px;
+    
+}
+.Row input{
+    margin-left: 15px;
+}
+.title{
+    width: 18%;
+    position:relative;
+}
+.title label{
+    position: absolute;
+    right: 0;
+}
+
+#lname, #Address, #Email{
+    width:75%;
+}
+#country{
+    width: 75%;
+    margin-left: 15px;
+}
+.input-About {
+    width: 80%;
+    height: 150px;
+    resize: none;
+}
+.btn_sub{
+    width:80px;
+    height: 35px;
+    margin-left: 230px;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+input, select, textarea, button{
+    border: 1px solid #3780bc;
+}
+
+
+   
+
+
